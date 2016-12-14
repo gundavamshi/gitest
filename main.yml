@@ -1,7 +1,7 @@
 ---
-- hosts: localhost
+- hosts: web
   tasks:
-  - name: launch ec2
+  - name: lunch ec2
     ec2:
      key_name: awskeys
      region: us-east-1
